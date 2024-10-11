@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="flex">
+        <!-- side bar -->
+        <div class="hidden relative sm:block bg-neutral-100 h-screen w-[270px] px-4 py-3">
+
+            <div class="flex gap-2 items-center" >
+                <img src="./assets/ChatGPT-3.svg" class="h-4 " alt="">
+                <p class="tracking-tight font-semibold">ChatGPT</p>
+            </div>
+
+            <div>
+                <p class="text-xs font-semibold text-neutral-500 my-4">Today</p>
+            </div>
+
+            <div class="text-neutral-800 py-2 px-4 mb-1 text-sm hover:bg-neutral-200 rounded-lg hover:cursor-pointer ">How to use tailwind?</div>
+            <div class="text-neutral-800 py-2 px-4 mb-1 text-sm hover:bg-neutral-200 rounded-lg hover:cursor-pointer ">Write an article on react js</div>
+            <div class="text-neutral-800 py-2 px-4 mb-1 text-sm hover:bg-neutral-200 rounded-lg hover:cursor-pointer ">How closures work?</div>
+            <div class="text-neutral-800 py-2 px-4 mb-1 text-sm hover:bg-neutral-200 rounded-lg hover:cursor-pointer ">Give examples of truthy and falsy</div>
+            <div class="text-neutral-800 py-2 px-4 mb-1 text-sm hover:bg-neutral-200 rounded-lg hover:cursor-pointer ">What is nifty fifty?</div>
+            <div class="text-neutral-800 py-2 px-4 mb-1 text-sm hover:bg-neutral-200 rounded-lg hover:cursor-pointer ">How to use alpine js?</div>
+
+
+            <!-- sidebar bottom -->
+
+            <div class="absolute bottom-3 w-[calc(100%-32px)]">
+                <div class="text-neutral-800 py-2 px-4 mb-1 text-sm hover:bg-neutral-200 rounded-lg hover:cursor-pointer flex gap-4 items-center">
+                    <div class="h-9 w-9 p-2 border-2 rounded-full ">
+                        <img src="assets/ChatGPT-6.svg" class=" rounded-full " alt="">
+                    </div>
+                    <div class="text-xs text-neutral-400">
+                        <p class="text-neutral-800 font-semibold">Add Team Workspace</p>
+                        <p>collaborate on a team plan</p>
+                    </div>
+
+                </div>
+                <div class="text-neutral-800 py-2 px-4 mb-1 text-sm hover:bg-neutral-200 rounded-lg hover:cursor-pointer flex gap-4 items-center">
+                    <img src="https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1hbnxlbnwwfHwwfHx8MA%3D%3D" class="h-9 w-9 rounded-full" alt="">
+                    <p>Shashipal Yadav</p>
+                </div>
+                
+            </div>
+        </div>
+
+
+
+
+
+        <!-- main content -->
+
+        <div class=" h-screen w-[90%] mx-auto sm:mx-0 sm:w-[calc(100%-270px)] relative">
+            <div class="md:w-[90%]  w-full mx-auto absolute bottom-5 left-1/2 -translate-x-1/2">
+                <div class="text-center mb-4">
+                    <img src="assets/ChatGPT-3.svg" class="border inline h-14 p-3 rounded-full" alt="">
+                    <h1 class="text-2xl font-semibold mt-3">How can I help you today?</h1>
+                </div>
+                <div class="flex gap-3 mt-10">
+                    <div class="border px-5 py-3 rounded-xl w-1/2 hover:bg-neutral-200 hover:cursor-pointer">
+                        <h2 class="text-sm font-semibold">create a modern routine</h2>
+                        <p class="text-sm text-neutral-500">to boost my productivity</p>
+                    </div>
+                    <div class="border px-5 py-3 rounded-xl w-1/2 hover:bg-neutral-200 hover:cursor-pointer">
+                        <h2 class="text-sm font-semibold">create a modern routine</h2>
+                        <p class="text-sm text-neutral-500">to boost my productivity</p>
+                    </div>
+                    
+                </div>
+
+                <div class="flex gap-3 mt-10">
+                    <div class="border px-5 py-3 rounded-xl w-1/2 hover:bg-neutral-200 hover:cursor-pointer">
+                        <h2 class="text-sm font-semibold">create a modern routine</h2>
+                        <p class="text-sm text-neutral-500">to boost my productivity</p>
+                    </div>
+                    <div class="border px-5 py-3 rounded-xl w-1/2 hover:bg-neutral-200 hover:cursor-pointer">
+                        <h2 class="text-sm font-semibold">create a modern routine</h2>
+                        <p class="text-sm text-neutral-500">to boost my productivity</p>
+                    </div>
+                    
+                </div>
+
+                <div>
+                    <input type="text" placeholder="Message ChatGPT" class="w-full py-3 px-5 border rounded-xl mt-5 focus:outline-none focus:shadow-sm">
+                    <p class="text-xs text-neutral-600 m-2 text-center">ChatGPT can make mistakes. Check important info.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
